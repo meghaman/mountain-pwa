@@ -1,6 +1,6 @@
 import { createMuiTheme } from "@material-ui/core/styles";
 
-export const primaryColor = "#000080";
+export const primaryColor = "#06ABEB";
 export const primaryContrast = "#ffffff";
 
 export const secondaryColor = "#808080";
@@ -17,7 +17,7 @@ const baseTheme = createMuiTheme({
       contrastText: secondaryContrast,
     },
     background: {
-      default: "#008080",
+      default: primaryColor,
     },
   },
   typography: {
