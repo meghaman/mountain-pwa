@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "AMD",
+        "target": "ES6",
+        "strict": true,
+        "jsx": "react",
+        "noEmit": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true
+    },
+    "include" :[
+        "src"
+    ]
+}
