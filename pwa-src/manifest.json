@@ -4,13 +4,8 @@
   "icons": [
     {
       "src": "mountain.png",
-      "sizes": "192x192",
+      "sizes": "512x512",
       "type": "image/png"
-    },
-    {  
-      "src": "mountain.png",  
-      "sizes": "512x512",  
-      "type": "image/png"  
     }
   ],
   "start_url": "/",
