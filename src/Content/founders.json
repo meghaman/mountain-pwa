@@ -1,7 +1,34 @@
 [
   {
+    "name": "Test",
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png",
+    "caches": [
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 5,
+        "headline": "Headline #1",
+        "story": "Test Story #1"
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 5,
+        "headline": "Headline #2",
+        "story": "Test Story #2"
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 5,
+        "headline": "Headline #3",
+        "story": "Test Story #3"
+      }
+    ]
+  },
+  {
     "name": "DD",
-    "headshot": "/content/dora_dworkin.jpg",
+    "headshot": "/photos/dora_dworkin.jpg",
     "caches": [
       {
         "latitude": 30,
