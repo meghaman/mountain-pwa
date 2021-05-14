@@ -1,4 +1,5 @@
 import homePage from "../Components/Pages/HomePage";
+import MapLeaflet from "../Components/Pages/MapLeaflet";
 import mapPage from "../Components/Pages/MapPage";
 import { IRouteObject } from "../Interfaces/interfaces";
 
@@ -14,7 +15,7 @@ const homePageRoute: IRouteObject = {
 const mapPageRoute: IRouteObject = {
   path: `${baseUrl}map`,
   key: "mapPageRoute",
-  component: mapPage,
+  component: MapLeaflet,
   defaultRoute: true,
 };
 
