@@ -26,7 +26,10 @@ module.exports = {
       template: "./src/index.html",
     }),
     new CopyWebpackPlugin({
-      patterns: [{ from: "pwa-src", to: "./" }],
+      patterns: [
+        { from: "pwa-src", to: "./" },
+        { from: "photos", to: "./photos" },
+      ],
     }),
   ],
 
@@ -35,5 +38,11 @@ module.exports = {
     watchContentBase: true,
     hot: true,
     historyApiFallback: true,
+  },
+
+  resolve: {
+    alias: {
+      Content: path.resolve(__dirname, "./src/Content/"),
+    },
   },
 };

@@ -1,6 +1,5 @@
+import FounderPage from "../Components/Pages/FounderPage";
 import homePage from "../Components/Pages/HomePage";
-import MapLeaflet from "../Components/Pages/MapLeaflet";
-import mapPage from "../Components/Pages/MapPage";
 import { IRouteObject } from "../Interfaces/interfaces";
 
 const baseUrl = "/";
@@ -12,13 +11,13 @@ const homePageRoute: IRouteObject = {
   defaultRoute: true,
 };
 
-const mapPageRoute: IRouteObject = {
-  path: `${baseUrl}map`,
-  key: "mapPageRoute",
-  component: MapLeaflet,
+const founderPageRoute: IRouteObject = {
+  path: `${baseUrl}founder/:id`,
+  key: "founderPageRoute",
+  component: FounderPage,
   defaultRoute: true,
 };
 
-const routes: IRouteObject[] = [homePageRoute, mapPageRoute];
+const routes: IRouteObject[] = [homePageRoute, founderPageRoute];
 
 export default routes;

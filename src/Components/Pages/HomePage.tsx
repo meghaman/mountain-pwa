@@ -3,7 +3,7 @@ import React from "react";
 const homePage = () => {
   return (
     <div>
-      <a href="/map">Home Page</a>
+      <a href="/founder/0">Home Page</a>
     </div>
   );
 };

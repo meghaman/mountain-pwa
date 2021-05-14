@@ -6,7 +6,12 @@
         "jsx": "react",
         "noEmit": true,
         "moduleResolution": "node",
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "paths":{
+            "Content":["Content"]
+        },
+        "baseUrl": "src"
     },
     "include" :[
         "src"
