@@ -3,7 +3,7 @@ import { createMuiTheme } from "@material-ui/core/styles";
 export const primaryColor = "#06ABEB";
 export const primaryContrast = "#ffffff";
 
-export const secondaryColor = "#808080";
+export const secondaryColor = "#D9058D";
 export const secondaryContrast = "#ffffff";
 
 const baseTheme = createMuiTheme({
@@ -16,13 +16,20 @@ const baseTheme = createMuiTheme({
       main: secondaryColor,
       contrastText: secondaryContrast,
     },
-    background: {
-      default: primaryColor,
-    },
   },
   typography: {
-    button: {
-      textTransform: "none",
+    fontFamily: "Roboto",
+    body1: {
+      fontSize: 20,
+    },
+    h1: {
+      fontFamily: "Barlow",
+      fontSize: 50,
+      color: primaryColor,
+    },
+    h2: {
+      fontSize: 30,
+      color: secondaryColor,
     },
   },
 });

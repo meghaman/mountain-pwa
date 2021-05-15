@@ -4,10 +4,11 @@ import { MuiThemeProvider } from "@material-ui/core/styles";
 
 import routes from "../Routing/routes";
 import { CssBaseline } from "@material-ui/core";
+import baseTheme from "./Themes/themes";
 
 const App: React.FC = () => {
   return (
-    <MuiThemeProvider theme={}>
+    <MuiThemeProvider theme={baseTheme}>
       <CssBaseline />
       <Switch>
         {routes
