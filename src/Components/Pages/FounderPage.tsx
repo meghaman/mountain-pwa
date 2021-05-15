@@ -35,6 +35,10 @@ const FounderPage: React.FC = () => {
 
   const currentFounder = founders[id];
 
+  const correctAnswerHandler = (cacheNumber: number) => {
+    console.log(cacheNumber);
+  };
+
   return (
     <div className={classes.root}>
       <Grid container spacing={1}>
@@ -45,6 +49,7 @@ const FounderPage: React.FC = () => {
                 <AnswerTextBox
                   cacheNumber={i}
                   correctAnswer={cache.secret}
+                  onCorrectAnswer={correctAnswerHandler}
                 ></AnswerTextBox>
               </Paper>
             </Grid>

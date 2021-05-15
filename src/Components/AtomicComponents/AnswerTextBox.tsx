@@ -1,5 +1,5 @@
 import { createStyles, makeStyles, TextField } from "@material-ui/core";
-import React from "react";
+import React, { useEffect } from "react";
 import { Controller, useForm } from "react-hook-form";
 
 const useStyles = makeStyles(() => {
@@ -20,15 +20,17 @@ const useStyles = makeStyles(() => {
 interface IProps {
   cacheNumber: number;
   correctAnswer: number;
-  //onCorrectAnswer(): void;
+  onCorrectAnswer(cacheNumber: number): void;
 }
 
 const AnswerTextBox: React.FC<IProps> = (props) => {
   const classes = useStyles();
-  const { control, formState, getValues } = useForm({ mode: "onChange" });
+  const { control, formState, watch } = useForm({ mode: "onChange" });
 
-  if (!formState.errors.cache && getValues("cache")) {
-    console.log("Correct Answer");
+  const watchCache = watch(["cache"]);
+
+  if (!formState.errors.cache && watchCache[0]) {
+    props.onCorrectAnswer(props.cacheNumber);
   }
 
   return (
