@@ -16,6 +16,14 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1,
       padding: theme.spacing(1),
     },
+    headerContainer: {
+      [theme.breakpoints.down("sm")]: {
+        margin: "20px 0 !important",
+      },
+      [theme.breakpoints.up("md")]: {
+        margin: "50px 0 !important",
+      },
+    },
     logoContainer: {
       [theme.breakpoints.down("sm")]: {
         textAlign: "center",
@@ -49,7 +57,7 @@ const HomePage = () => {
   return (
     true && (
       <div className={classes.root}>
-        <Grid container spacing={1}>
+        <Grid container spacing={1} className={classes.headerContainer}>
           <Grid item xs={12} md={6} className={classes.logoContainer}>
             <img className={classes.logo} src="/photos/ms_logo.png"></img>
           </Grid>
@@ -59,7 +67,10 @@ const HomePage = () => {
               <Typography variant="h2">Diamond Jubilee Celebration</Typography>
             </div>
             <div>
-              <Typography variant="body1">Body Text</Typography>
+              <Typography variant="body1">
+                Celebrate Our Diamond Jubilee by learning more about Our
+                Founders
+              </Typography>
             </div>
           </Grid>
         </Grid>

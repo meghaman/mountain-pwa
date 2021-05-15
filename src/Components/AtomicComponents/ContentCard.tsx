@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       maxWidth: 345,
-      minHeight: 330,
     },
     media: {
       [theme.breakpoints.down("xs")]: {
@@ -19,6 +18,14 @@ const useStyles = makeStyles((theme: Theme) =>
       },
       [theme.breakpoints.up("sm")]: {
         height: "300px",
+      },
+    },
+    description: {
+      [theme.breakpoints.down("xs")]: {
+        minHeight: 100,
+      },
+      [theme.breakpoints.up("sm")]: {
+        minHeight: "auto",
       },
     },
   })
@@ -42,8 +49,8 @@ const ContentCard: React.FC<IProps> = (props) => {
           image={props.imageURL}
           title={props.heading}
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+        <CardContent className={classes.description}>
+          <Typography gutterBottom variant="h3" component="h2">
             {props.heading}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">

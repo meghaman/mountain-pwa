@@ -26,10 +26,15 @@ const baseTheme = createMuiTheme({
       fontFamily: "Barlow",
       fontSize: 50,
       color: primaryColor,
+      paddingBottom: "5px",
     },
     h2: {
       fontSize: 30,
       color: secondaryColor,
+      paddingBottom: "2px",
+    },
+    h3: {
+      fontSize: 18,
     },
   },
 });
