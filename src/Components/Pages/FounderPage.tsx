@@ -15,6 +15,7 @@ import MapLeaflet from "../MapComponents/MapLeaflet";
 import StoryBox from "../AtomicComponents/StoryBox";
 import { Marker, Popup } from "react-leaflet";
 import MainLayout from "../Layouts/Main";
+import L from "leaflet";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -29,6 +30,13 @@ const useStyles = makeStyles((theme: Theme) =>
     },
   })
 );
+
+const chestIcon = new L.Icon({
+  iconUrl: "/photos/chest_icon.png",
+  iconAnchor: [5, 55],
+  popupAnchor: [10, -44],
+  iconSize: [25, 25],
+});
 
 const FounderPage: React.FC = () => {
   const classes = useStyles();
@@ -66,6 +74,7 @@ const FounderPage: React.FC = () => {
       <Marker
         position={{ lat: cache.latitude, lng: cache.longitude }}
         opacity={cacheNumber === currentAnswer + 1 ? 1 : 0.5}
+        icon={chestIcon}
       >
         <Popup>{`Cache #${cacheNumber + 1}`}</Popup>
       </Marker>
