@@ -14,21 +14,24 @@
         "longitude": -80.1085702115981,
         "secret": 5,
         "headline": "Headline #1",
-        "story": "Test Story #1"
+        "story": "Test Story #1",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
       },
       {
         "latitude": 44.25045785706793,
         "longitude": -80.1055702115981,
         "secret": 5,
         "headline": "Headline #2",
-        "story": "Test Story #2"
+        "story": "Test Story #2",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
       },
       {
         "latitude": 44.25045785706793,
         "longitude": -80.1105702115981,
         "secret": 5,
         "headline": "Headline #3",
-        "story": "Test Story #3"
+        "story": "Test Story #3",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
       }
     ]
   },
@@ -46,7 +49,8 @@
         "latitude": 30,
         "longitude": 30,
         "secret": 5,
-        "story": "Dorothy Dworkin was born to Wolf and Sara Goldstick in Windau, in the Courland Governorate of the Russian Empire (present-day Latvia).[1] She had six sisters and four brothers. In 1904, she immigrated with her family to Canada. In 1907, she chose to become a maternity nurse. She spent a year working under Dr. Kaufman and various of his colleagues until Dr. Kaufman suggested that she go to train at Mount Sinai Hospital, Cleveland, where she would train as a midwife.[2] Prior to leaving Toronto, she helped establish a free Jewish Dispensary located at Elizabeth Street near Agnes, which is now Dundas Street, with Ida Siegel and her brother Abe Lewis.[3] She was the dispensary's first nurse.[4] In 1909, she received a diploma from the Medical State Board of Ohio."
+        "story": "Dorothy Dworkin was born to Wolf and Sara Goldstick in Windau, in the Courland Governorate of the Russian Empire (present-day Latvia).[1] She had six sisters and four brothers. In 1904, she immigrated with her family to Canada. In 1907, she chose to become a maternity nurse. She spent a year working under Dr. Kaufman and various of his colleagues until Dr. Kaufman suggested that she go to train at Mount Sinai Hospital, Cleveland, where she would train as a midwife.[2] Prior to leaving Toronto, she helped establish a free Jewish Dispensary located at Elizabeth Street near Agnes, which is now Dundas Street, with Ida Siegel and her brother Abe Lewis.[3] She was the dispensary's first nurse.[4] In 1909, she received a diploma from the Medical State Board of Ohio.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
       }
     ]
   }

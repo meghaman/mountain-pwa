@@ -43,13 +43,17 @@ const FounderPage: React.FC = () => {
     if (answer > currentAnswer) setCurrentAnswer(answer);
   };
 
-  const RenderStoryBox = (cacheNumber: number) => {
+  const RenderStoryBox = (cache: any, cacheNumber: number) => {
     if (cacheNumber > currentAnswer) return;
 
     return (
       <Grid item xs={12}>
         <Paper className={classes.paper}>
-          <StoryBox></StoryBox>
+          <StoryBox
+            heading={cache.headline}
+            description={cache.story}
+            imageURL={cache.photo}
+          ></StoryBox>
         </Paper>
       </Grid>
     );
@@ -71,6 +75,24 @@ const FounderPage: React.FC = () => {
   return (
     <MainLayout>
       <div className={classes.root}>
+        <Grid container spacing={1}>
+          <Grid item xs={12}>
+            <Paper className={classes.paper}>
+              <StoryBox
+                heading={currentFounder.name}
+                description={currentFounder.long_description}
+                imageURL={currentFounder.headshot}
+              ></StoryBox>
+            </Paper>
+          </Grid>
+        </Grid>
+        {currentAnswer >= 0 && (
+          <Grid container spacing={1}>
+            {currentFounder.caches.map((cache, i: number) => {
+              return RenderStoryBox(cache, i);
+            })}
+          </Grid>
+        )}
         <Grid container spacing={1}>
           {currentFounder.caches.map((cache, i: number) => {
             return (
@@ -99,11 +121,6 @@ const FounderPage: React.FC = () => {
               })}
             </MapLeaflet>
           </Grid>
-        </Grid>
-        <Grid container spacing={1}>
-          {currentFounder.caches.map((cache, i: number) => {
-            return RenderStoryBox(i);
-          })}
         </Grid>
       </div>
     </MainLayout>

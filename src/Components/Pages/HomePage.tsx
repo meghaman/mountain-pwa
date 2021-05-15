@@ -78,7 +78,7 @@ const HomePage = () => {
             </Grid>
           </Grid>
           <div className={classes.foundersHeader}>
-            <Typography variant="h4">THE FOUNDERS</Typography>
+            <Typography variant="h2">The Founders</Typography>
           </div>
           <Grid container spacing={1}>
             {founders.map((founder, i) => {

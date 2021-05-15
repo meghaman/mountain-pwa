@@ -40,6 +40,9 @@ const baseTheme = createMuiTheme({
       fontSize: 40,
       fontFamily: "Monteserrat",
     },
+    h6: {
+      color: secondaryColor,
+    },
   },
 });
 
