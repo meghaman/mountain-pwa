@@ -14,6 +14,7 @@ import AnswerTextBox from "../AtomicComponents/AnswerTextBox";
 import MapLeaflet from "../MapComponents/MapLeaflet";
 import StoryBox from "../AtomicComponents/StoryBox";
 import { Marker, Popup } from "react-leaflet";
+import MainLayout from "../Layouts/Main";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -68,42 +69,44 @@ const FounderPage: React.FC = () => {
   };
 
   return (
-    <div className={classes.root}>
-      <Grid container spacing={1}>
-        {currentFounder.caches.map((cache, i: number) => {
-          return (
-            <Grid item xs={4}>
-              <Paper className={classes.paper}>
-                <AnswerTextBox
-                  cacheNumber={i}
-                  correctAnswer={cache.secret}
-                  onCorrectAnswer={handleCorrectAnswer}
-                ></AnswerTextBox>
-              </Paper>
-            </Grid>
-          );
-        })}
-      </Grid>
-      <Grid container spacing={1}>
-        <Grid item xs={12}>
-          <MapLeaflet
-            center={{
-              lat: currentFounder.center?.latitude,
-              lng: currentFounder.center?.longitude,
-            }}
-          >
-            {currentFounder.caches.map((cache, i: number) => {
-              return RenderCacheMarkers(cache, i);
-            })}
-          </MapLeaflet>
+    <MainLayout>
+      <div className={classes.root}>
+        <Grid container spacing={1}>
+          {currentFounder.caches.map((cache, i: number) => {
+            return (
+              <Grid item xs={4}>
+                <Paper className={classes.paper}>
+                  <AnswerTextBox
+                    cacheNumber={i}
+                    correctAnswer={cache.secret}
+                    onCorrectAnswer={handleCorrectAnswer}
+                  ></AnswerTextBox>
+                </Paper>
+              </Grid>
+            );
+          })}
         </Grid>
-      </Grid>
-      <Grid container spacing={1}>
-        {currentFounder.caches.map((cache, i: number) => {
-          return RenderStoryBox(i);
-        })}
-      </Grid>
-    </div>
+        <Grid container spacing={1}>
+          <Grid item xs={12}>
+            <MapLeaflet
+              center={{
+                lat: currentFounder.center?.latitude,
+                lng: currentFounder.center?.longitude,
+              }}
+            >
+              {currentFounder.caches.map((cache, i: number) => {
+                return RenderCacheMarkers(cache, i);
+              })}
+            </MapLeaflet>
+          </Grid>
+        </Grid>
+        <Grid container spacing={1}>
+          {currentFounder.caches.map((cache, i: number) => {
+            return RenderStoryBox(i);
+          })}
+        </Grid>
+      </div>
+    </MainLayout>
   );
 };
 

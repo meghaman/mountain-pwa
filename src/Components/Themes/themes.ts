@@ -29,12 +29,16 @@ const baseTheme = createMuiTheme({
       paddingBottom: "5px",
     },
     h2: {
-      fontSize: 30,
+      fontSize: 25,
       color: secondaryColor,
       paddingBottom: "2px",
     },
     h3: {
       fontSize: 18,
+    },
+    h4: {
+      fontSize: 40,
+      fontFamily: "Monteserrat",
     },
   },
 });
