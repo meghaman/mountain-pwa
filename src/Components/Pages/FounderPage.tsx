@@ -13,6 +13,7 @@ import { IMatchedIDFromRoute } from "../../Interfaces/interfaces";
 import AnswerTextBox from "../AtomicComponents/AnswerTextBox";
 import MapLeaflet from "../MapComponents/MapLeaflet";
 import StoryBox from "../AtomicComponents/StoryBox";
+import { Marker, Popup } from "react-leaflet";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -53,6 +54,19 @@ const FounderPage: React.FC = () => {
     );
   };
 
+  const RenderCacheMarkers = (cache, cacheNumber: number) => {
+    if (cacheNumber > currentAnswer + 1) return;
+
+    return (
+      <Marker
+        position={{ lat: cache.latitude, lng: cache.longitude }}
+        opacity={cacheNumber === currentAnswer + 1 ? 1 : 0.5}
+      >
+        <Popup>{`Cache #${cacheNumber + 1}`}</Popup>
+      </Marker>
+    );
+  };
+
   return (
     <div className={classes.root}>
       <Grid container spacing={1}>
@@ -70,11 +84,20 @@ const FounderPage: React.FC = () => {
           );
         })}
       </Grid>
-      {/* <Grid container spacing={1}>
+      <Grid container spacing={1}>
         <Grid item xs={12}>
-          <MapLeaflet></MapLeaflet>
+          <MapLeaflet
+            center={{
+              lat: currentFounder.center?.latitude,
+              lng: currentFounder.center?.longitude,
+            }}
+          >
+            {currentFounder.caches.map((cache, i: number) => {
+              return RenderCacheMarkers(cache, i);
+            })}
+          </MapLeaflet>
         </Grid>
-      </Grid> */}
+      </Grid>
       <Grid container spacing={1}>
         {currentFounder.caches.map((cache, i: number) => {
           return RenderStoryBox(i);

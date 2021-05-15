@@ -1,12 +1,17 @@
+import { LatLngLiteral } from "leaflet";
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import LocationMarker from "./LocationMarker";
 
-const MapLeaflet: React.FC = () => {
+interface IProps {
+  center: LatLngLiteral;
+}
+
+const MapLeaflet: React.FC<IProps> = (props) => {
   return (
     <div>
       <MapContainer
-        center={{ lat: 51.505, lng: -0.09 }}
+        center={props.center}
         zoom={13}
         scrollWheelZoom={true}
         style={{ height: "300px", width: "100%" }}
@@ -16,6 +21,7 @@ const MapLeaflet: React.FC = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <LocationMarker />
+        {props.children}
       </MapContainer>
     </div>
   );

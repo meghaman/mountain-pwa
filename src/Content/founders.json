@@ -2,24 +2,28 @@
   {
     "name": "Test",
     "headshot": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png",
+    "center": {
+      "latitude": 44.25045785706793,
+      "longitude": -80.1085702115981
+    },
     "caches": [
       {
-        "latitude": 30,
-        "longitude": 30,
+        "latitude": 44.25045785706793,
+        "longitude": -80.1085702115981,
         "secret": 5,
         "headline": "Headline #1",
         "story": "Test Story #1"
       },
       {
-        "latitude": 30,
-        "longitude": 30,
+        "latitude": 44.25045785706793,
+        "longitude": -80.1055702115981,
         "secret": 5,
         "headline": "Headline #2",
         "story": "Test Story #2"
       },
       {
-        "latitude": 30,
-        "longitude": 30,
+        "latitude": 44.25045785706793,
+        "longitude": -80.1105702115981,
         "secret": 5,
         "headline": "Headline #3",
         "story": "Test Story #3"
