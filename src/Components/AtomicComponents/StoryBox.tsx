@@ -17,13 +17,13 @@ const useStyles = makeStyles((theme: Theme) =>
         textAlign: "center",
       },
       [theme.breakpoints.up("md")]: {
-        textAlign: "left",
+        textAlign: "center",
         paddingRight: "20px",
       },
     },
     image: {
-      height: "187px",
-      width: "300px",
+      height: "200px",
+      width: "auto",
     },
     textContainer: {
       flexDirection: "column",

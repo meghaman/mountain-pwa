@@ -44,9 +44,9 @@ const useStyles = makeStyles((theme: Theme) =>
         textAlign: "left",
       },
     },
-    foundersHeader: {
+    divider: {
       textAlign: "center",
-      margin: "40px 0 10px 0",
+      margin: "15px 0",
     },
   })
 );
@@ -77,9 +77,7 @@ const HomePage = () => {
               </div>
             </Grid>
           </Grid>
-          <div className={classes.foundersHeader}>
-            <Typography variant="h2">The Founders</Typography>
-          </div>
+          <div className={classes.divider}></div>
           <Grid container spacing={1}>
             {founders.map((founder, i) => {
               return (
