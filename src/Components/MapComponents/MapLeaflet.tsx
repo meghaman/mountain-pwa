@@ -9,7 +9,7 @@ const MapLeaflet: React.FC = () => {
         center={{ lat: 51.505, lng: -0.09 }}
         zoom={13}
         scrollWheelZoom={true}
-        style={{ height: "500px", width: "500px" }}
+        style={{ height: "300px", width: "100%" }}
       >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

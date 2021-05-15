@@ -1,9 +1,12 @@
+import { Typography } from "@material-ui/core";
 import React from "react";
 
 const homePage = () => {
   return (
     <div>
-      <a href="/founder/0">Home Page</a>
+      <Typography variant="h1">
+        <a href="/founder/0">Founder Page</a>
+      </Typography>
     </div>
   );
 };

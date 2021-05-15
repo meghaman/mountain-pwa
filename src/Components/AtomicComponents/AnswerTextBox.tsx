@@ -6,12 +6,12 @@ const useStyles = makeStyles(() => {
   return createStyles({
     correctAnswer: {
       "& input:valid + fieldset": {
-        borderColor: "green",
+        borderColor: "#96ffaa",
         borderWidth: "2px",
         color: "black",
       },
       "& input:valid": {
-        background: "lightGreen",
+        background: "#96ffaa",
       },
     },
   });
@@ -38,12 +38,13 @@ const AnswerTextBox: React.FC<IProps> = (props) => {
       defaultValue=""
       render={({ field: { onChange, value }, fieldState: { error } }) => (
         <TextField
-          label={`Cache #${props.cacheNumber + 1}`}
+          label={
+            error ? "" : value ? "Correct" : `Photo #${props.cacheNumber + 1}`
+          }
           variant="outlined"
           value={value}
           onChange={onChange}
           error={!!error}
-          helperText={error ? "Wrong Answer!" : value ? "Correct Answer!" : ""}
           className={error ? "" : value ? classes.correctAnswer : ""}
         />
       )}
