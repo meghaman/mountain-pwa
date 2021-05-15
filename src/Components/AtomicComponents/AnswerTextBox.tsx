@@ -1,5 +1,5 @@
 import { createStyles, makeStyles, TextField } from "@material-ui/core";
-import React, { useEffect } from "react";
+import React from "react";
 import { Controller, useForm } from "react-hook-form";
 
 const useStyles = makeStyles(() => {
@@ -25,13 +25,11 @@ interface IProps {
 
 const AnswerTextBox: React.FC<IProps> = (props) => {
   const classes = useStyles();
-  const { control, formState, watch } = useForm({ mode: "onChange" });
+  const { control } = useForm({ mode: "onChange" });
 
-  const watchCache = watch(["cache"]);
-
-  if (!formState.errors.cache && watchCache[0]) {
+  const isCorrect = () => {
     props.onCorrectAnswer(props.cacheNumber);
-  }
+  };
 
   return (
     <Controller
@@ -45,7 +43,14 @@ const AnswerTextBox: React.FC<IProps> = (props) => {
           }
           variant="outlined"
           value={value}
-          onChange={onChange}
+          onChange={(e) => {
+            onChange(e);
+            if (
+              e.target.value &&
+              parseInt(e.target.value) === props.correctAnswer
+            )
+              isCorrect();
+          }}
           error={!!error}
           className={error ? "" : value ? classes.correctAnswer : ""}
         />
