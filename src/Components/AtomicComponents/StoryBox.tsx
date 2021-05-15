@@ -52,7 +52,7 @@ const StoryBox: React.FC<IProps> = (props) => {
       <Grid item xs={12} md={8} className={classes.textContainer}>
         <Typography variant="h6">{props.heading}</Typography>
         <div>
-          <Typography variant="body2">{props.description}</Typography>
+          <span dangerouslySetInnerHTML={{ __html: props.description }}></span>
         </div>
       </Grid>
     </Grid>

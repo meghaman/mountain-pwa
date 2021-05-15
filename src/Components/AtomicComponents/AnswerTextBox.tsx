@@ -14,6 +14,9 @@ const useStyles = makeStyles(() => {
         background: "#96ffaa",
       },
     },
+    labelRoot: {
+      fontSize: "16px",
+    },
   });
 });
 
@@ -39,8 +42,13 @@ const AnswerTextBox: React.FC<IProps> = (props) => {
       render={({ field: { onChange, value }, fieldState: { error } }) => (
         <TextField
           label={
-            error ? "" : value ? "Correct" : `Photo #${props.cacheNumber + 1}`
+            error ? "" : value ? "Correct" : `Cache #${props.cacheNumber + 1}`
           }
+          InputLabelProps={{
+            classes: {
+              root: classes.labelRoot,
+            },
+          }}
           variant="outlined"
           value={value}
           onChange={(e) => {
