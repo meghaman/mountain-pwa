@@ -48,6 +48,9 @@ const useStyles = makeStyles((theme: Theme) =>
       textAlign: "center",
       margin: "15px 0",
     },
+    finePrint: {
+      marginTop: "15px",
+    },
   })
 );
 
@@ -56,7 +59,7 @@ const HomePage = () => {
 
   return (
     true && (
-      <MainLayout>
+      <MainLayout homeIcon={true}>
         <div className={classes.root}>
           <Grid container spacing={1} className={classes.headerContainer}>
             <Grid item xs={12} md={6} className={classes.logoContainer}>
@@ -91,6 +94,13 @@ const HomePage = () => {
                 </Grid>
               );
             })}
+          </Grid>
+          <Grid container spacing={1} className={classes.finePrint}>
+            <Grid item xs={6} md={4}>
+              <Typography variant="subtitle2">
+                © 2019 Mount Sinai Hospital. All rights reserved.
+              </Typography>
+            </Grid>
           </Grid>
         </div>
       </MainLayout>

@@ -39,6 +39,7 @@ interface IProps {
   heading: string;
   description: string;
   imageURL: string;
+  disclaimer?: string;
 }
 
 const StoryBox: React.FC<IProps> = (props) => {
@@ -53,6 +54,16 @@ const StoryBox: React.FC<IProps> = (props) => {
         <Typography variant="h6">{props.heading}</Typography>
         <div>
           <span dangerouslySetInnerHTML={{ __html: props.description }}></span>
+        </div>
+        <br />
+        <div>
+          {props.disclaimer && (
+            <Typography variant="subtitle2">
+              <span
+                dangerouslySetInnerHTML={{ __html: props.disclaimer }}
+              ></span>
+            </Typography>
+          )}
         </div>
       </Grid>
     </Grid>

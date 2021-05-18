@@ -2,8 +2,8 @@ import React from "react";
 import Typography from "@material-ui/core/Typography";
 
 import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
-import { Grid, Paper, SvgIcon } from "@material-ui/core";
-import { SvgIconProps } from "@material-ui/core";
+import { Grid, Paper, SvgIcon, SvgIconProps } from "@material-ui/core";
+import { ArrowBackIos } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -42,14 +42,24 @@ const HomeIcon = (props: SvgIconProps) => {
   );
 };
 
-const DefaultToolbar: React.FC = () => {
+interface IProps {
+  backURL: string;
+  backText: string;
+  backIcon?: boolean;
+}
+
+const DefaultToolbar: React.FC<IProps> = (props) => {
   const classes = useStyles();
 
   return (
     <Paper variant="outlined" className={classes.defaultToolbarContainer}>
       <Grid container>
         <Grid item>
-          <HomeIcon color="primary" />
+          {props.backIcon ? (
+            <HomeIcon color="primary" />
+          ) : (
+            <ArrowBackIos color="primary" />
+          )}
         </Grid>
         <Grid item className={classes.defaultToolbarContent}>
           <Typography
@@ -57,11 +67,8 @@ const DefaultToolbar: React.FC = () => {
             variant="h6"
             data-cy="batch-detail-header"
           >
-            <a
-              href="https://www.mountsinai.on.ca/"
-              className={classes.homeLink}
-            >
-              Go Back To Mount Sinai
+            <a href={props.backURL} className={classes.homeLink}>
+              {props.backText}
             </a>
           </Typography>
         </Grid>

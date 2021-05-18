@@ -11,13 +11,23 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const MainLayout: React.FC = (props) => {
+interface IProps {
+  toolbarURL?: string;
+  toolbarText?: string;
+  homeIcon?: boolean;
+}
+
+const MainLayout: React.FC<IProps> = (props) => {
   const classes = useStyles();
 
   return (
     <>
       <div className={classes.root}>
-        <DefaultToolbar></DefaultToolbar>
+        <DefaultToolbar
+          backText={props.toolbarText || "Back to Mount Sinai Website"}
+          backURL={props.toolbarURL || "https://www.mountsinai.on.ca/"}
+          backIcon={props.homeIcon}
+        ></DefaultToolbar>
         {props.children}
       </div>
     </>

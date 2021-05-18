@@ -82,7 +82,7 @@ const FounderPage: React.FC = () => {
   };
 
   return (
-    <MainLayout>
+    <MainLayout toolbarText="Back" toolbarURL="/">
       <div className={classes.root}>
         <Grid container spacing={1}>
           <Grid item xs={12}>
@@ -91,6 +91,7 @@ const FounderPage: React.FC = () => {
                 heading={currentFounder.name}
                 description={currentFounder.long_description}
                 imageURL={currentFounder.headshot}
+                disclaimer={currentFounder.disclaimer || undefined}
               ></StoryBox>
             </Paper>
           </Grid>

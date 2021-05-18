@@ -1,5 +1,6 @@
 import FounderPage from "../Components/Pages/FounderPage";
-import homePage from "../Components/Pages/HomePage";
+import HomePage from "../Components/Pages/HomePage";
+import AdminPage from "../Components/Pages/AdminPage";
 import { IRouteObject } from "../Interfaces/interfaces";
 
 const baseUrl = "/";
@@ -7,7 +8,7 @@ const baseUrl = "/";
 const homePageRoute: IRouteObject = {
   path: `${baseUrl}`,
   key: "homePageRoute",
-  component: homePage,
+  component: HomePage,
   defaultRoute: true,
 };
 
@@ -18,6 +19,17 @@ const founderPageRoute: IRouteObject = {
   defaultRoute: true,
 };
 
-const routes: IRouteObject[] = [homePageRoute, founderPageRoute];
+const adminPageRoute: IRouteObject = {
+  path: `${baseUrl}admin`,
+  key: "adminPageRoute",
+  component: AdminPage,
+  defaultRoute: true,
+};
+
+const routes: IRouteObject[] = [
+  homePageRoute,
+  founderPageRoute,
+  adminPageRoute,
+];
 
 export default routes;

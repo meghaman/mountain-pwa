@@ -1,9 +1,10 @@
 [
   {
     "name": "Test Test",
-    "headshot": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png",
+    "headshot": "/photos/dora_dworkin.jpg",
     "description": "Former Chairman of Mount Sinai",
     "long_description": "Pictured: Monty Simmonds and wife, Judy <br /><br />As chairman of the Mount Sinai Hospital, in the late 70's Monty oversaw the construction of the new building on University Avenue and had the honour of welcoming Queen Elizabeth and Prince Philip to its opening in 1974.<br /><br />Thank you to Judy Simmonds for permitting the usage of her farm for the commemoration of her husband. <br /> <br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "disclaimer": "1. <strike>These geocaches are on private property, please contact sara.brown@sinaihealth.ca to book a time.</strike> <br />2. <strong>These geocaches are no longer available to the public.</strong>",
     "center": {
       "latitude": 44.25045785706793,
       "longitude": -80.1085702115981
