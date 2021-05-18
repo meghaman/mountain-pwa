@@ -2,12 +2,22 @@ import { LatLngLiteral } from "leaflet";
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import LocationMarker from "./LocationMarker";
+import { geolocated, GeolocatedProps } from "react-geolocated";
+import { Grid } from "@material-ui/core";
 
-interface IProps {
+interface IProps extends GeolocatedProps {
   center: LatLngLiteral;
+  displayCoordinates?: boolean;
 }
 
 const MapLeaflet: React.FC<IProps> = (props) => {
+  let position: LatLngLiteral = { lat: 0, lng: 0 };
+
+  if (props && props.coords) {
+    position.lng = props.coords.longitude;
+    position.lat = props.coords.latitude;
+  }
+
   return (
     <div>
       <MapContainer
@@ -23,8 +33,20 @@ const MapLeaflet: React.FC<IProps> = (props) => {
         <LocationMarker />
         {props.children}
       </MapContainer>
+      {props.displayCoordinates && (
+        <Grid container spacing={1}>
+          <Grid item xs={12}>
+            Latitude: {position.lat}
+          </Grid>
+          <Grid item xs={12}>
+            Longitude: {position.lng}
+          </Grid>
+        </Grid>
+      )}
     </div>
   );
 };
 
-export default MapLeaflet;
+export default geolocated({
+  watchPosition: true,
+})(MapLeaflet);
