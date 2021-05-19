@@ -99,7 +99,7 @@ const HomePage = () => {
           <Grid container spacing={1} className={classes.finePrint}>
             <Grid item xs={12}>
               <Typography variant="subtitle2">
-                © 2019 Mount Sinai Hospital. All rights reserved.
+                &#169; 2019 Mount Sinai Hospital. All rights reserved.
               </Typography>
             </Grid>
           </Grid>

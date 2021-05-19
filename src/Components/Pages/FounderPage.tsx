@@ -6,6 +6,7 @@ import {
   createStyles,
   Grid,
   Paper,
+  Typography,
 } from "@material-ui/core";
 
 import founders from "Content/founders.json";
@@ -131,6 +132,13 @@ const FounderPage: React.FC = () => {
                 return RenderCacheMarkers(cache, i);
               })}
             </MapLeaflet>
+          </Grid>
+        </Grid>
+        <Grid container spacing={1} className={classes.finePrint}>
+          <Grid item xs={12}>
+            <Typography variant="subtitle2">
+              &#169; 2019 Mount Sinai Hospital. All rights reserved.
+            </Typography>
           </Grid>
         </Grid>
       </div>

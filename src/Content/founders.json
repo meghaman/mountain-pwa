@@ -69,7 +69,7 @@
     "name": "James William Bridgland",
     "headshot": "/photos/100_yorkville.jpg",
     "description": "The builder and owner of 100 Yorkville Avenue.",
-    "long_description": "In 1922, a location at 100 Yorkville Avenue was purchased with $12,000. The two-storey building was built as a private residence in 1871 by James D. Bridgland, the Crown's Inspector of Roads; in 1914, the home was converted into the Lyndhurst Private Hospital",
+    "long_description": "In 1922, a location at 100 Yorkville Avenue was purchased with $12,000. The two-storey building was built as a private residence in 1871 by James D. Bridgland, the Crown's Inspector of Roads; in 1914, the home was converted into the Lyndhurst Private Hospital.<br /><br />When Jewish doctors were not welcome in non-Jewish hospitals; 100 Yorkville provided communication in Yiddish, kosher food for patients. The hospital moved to its present location on University Avenue in 1953.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
     "center": {
       "latitude": 43.67229367652458,
       "longitude": -79.39159816930949
@@ -168,10 +168,44 @@
     ]
   },
   {
+    "name": "Dr. Allan Gross",
+    "headshot": "/photos/allan_gross.jpg",
+    "description": "Orthopaedic surgeon at Mount Sinai Hospital",
+    "long_description": "An orthopaedic surgeon specializing in lower extremity reconstruction, with a particular interest in revision arthroplasty of the hip and knee. Has published extensively on the use of allograft bone in revision arthoplasty of the hip and knee. Has the largest series in the world of fresh osteochondral allografts performed for post traumatic defects of the knee. Supervises a large institutional tissue bank and comprehensive orthopaedic transplant programme.<br /><br />Dr. Allan Gross and his team perform Canada’s first fresh tissue hip transplant. Five years later, his team performs Canada’s first knee joint transplant.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "disclaimer": "1. <strike>These geocaches are on private property, please contact sara.brown@sinaihealth.ca to book a time.</strike> <br />2. <strong>These geocaches are no longer available to the public.</strong>",
+    "center": {
+      "latitude": 43.91996410488281,
+      "longitude": -80.06721674382567
+    },
+    "caches": [
+      {
+        "latitude": 43.91996410488281,
+        "longitude": -80.06721674382567,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
     "name": "Monty Maurice Simmonds",
     "headshot": "/photos/judy-and-monty-simmonds.jpg",
     "description": "Former Chairman of Mount Sinai",
-    "long_description": "Pictured: Monty Simmonds and wife, Judy <br /><br />As chairman of the Mount Sinai Hospital, in the late 70's Monty oversaw the construction of the new building on University Avenue and had the honour of welcoming Queen Elizabeth and Prince Philip to its opening in 1974. It was Mr. Simmonds direct and (at times controversial) method of doing business that accelerated the construction of the new building.<br /><br />Thank you to Judy Simmonds for permitting the usage of her farm for the commemoration of her husband. <br /> <br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "long_description": "As chairman of the Mount Sinai Hospital, in the late 70's Monty oversaw the construction of the new building on University Avenue and had the honour of welcoming Queen Elizabeth and Prince Philip to its opening in 1974. It was Mr. Simmonds direct and (at times controversial) method of doing business that accelerated the construction of the new building. In 1986, the statue 'Valerie' by Jack Culiner was installed in Mount Sinai in honour of Mr.Simmonds sister Valerie.<br /><br />Thank you to Judy Simmonds for permitting the usage of her farm for the commemoration of her husband. <br /> <br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
     "disclaimer": "1. <strike>These geocaches are on private property, please contact sara.brown@sinaihealth.ca to book a time.</strike> <br />2. <strong>These geocaches are no longer available to the public.</strong>",
     "center": {
       "latitude": 44.25045785706793,
@@ -201,6 +235,72 @@
         "headline": "Headline #3",
         "story": "Test Story #3",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
+      }
+    ]
+  },
+  {
+    "name": "Sidney Liswood",
+    "headshot": "/photos/sidney_liswood.jpg",
+    "description": "Current Board Chair of the Circle of Care",
+    "long_description": "Mr. Sidney Liswood, the executive director of Mount Sinai Hospital from 1954 to 1973. The Sidney Liswood Health Sciences Library opened at its present location on University Avenue in 1974.<br /> <br /> Working with Monty Maurice Simmonds, Mr. Liswood oversaw the construction of the New Mount Sinai hospital on University Avenue. Mr Liswood helped setup programs, still in use to this day, that train health administrators.<br/ ><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "center": {
+      "latitude": 43.66128637517145,
+      "longitude": -79.39112043017809
+    },
+    "caches": [
+      {
+        "latitude": 43.66128637517145,
+        "longitude": -79.39112043017809,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "name": "Allan Rudolph",
+    "headshot": "/photos/allan_rudolph.jpg",
+    "description": "Current Board Chair of the Circle of Care",
+    "long_description": "Allan Rudolph is the Chief Board of Directors of the Circle of Care within the Sinai Health Systems. He is also a Managing Partner at BDO and is a member of the Toronto Region Management Board. Allan’s area of specialization includes manufacturing and retail. He also has extensive experience in multi-location audits, working with high profile clients. Allan is an active member of various firm committees and has also been involved in a number of charitable organizations including Circle of Care. Allan sits on the Sinai Health board as an ex-officio member.<br /><br />Allan oversaw more than 16,000 clients and caregivers leaned on Circle of Care for supports and services that allow them to live independently at home.<br /> <br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "center": {
+      "latitude": 44.22148042145435,
+      "longitude": -78.81088634297876
+    },
+    "caches": [
+      {
+        "latitude": 44.22148042145435,
+        "longitude": -78.81088634297876,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
       }
     ]
   }
