@@ -99,7 +99,12 @@ const HomePage = () => {
           <Grid container spacing={1} className={classes.finePrint}>
             <Grid item xs={12}>
               <Typography variant="subtitle2">
-                &#169; 2019 Mount Sinai Hospital. All rights reserved.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      "&copy; 2019 Mount Sinai Hospital. All rights reserved.",
+                  }}
+                ></span>
               </Typography>
             </Grid>
           </Grid>
