@@ -1,10 +1,108 @@
 [
   {
-    "name": "Test Test",
+    "name": "The Original Four",
+    "headshot": "/photos/original_members.jpg",
+    "description": "The four women who founded Mount Sinai",
+    "long_description": "In August of 1913, four immigrant women from Toronto’s Jewish community started knocking on neighbourhood doors to raise money for a hospital.<br /><br />The Jewish immigrant population in Toronto was burgeoning; most of the new immigrants didn’t speak English and were afraid of large institutions.  And, sadly, not a hospital in the city would give Jewish doctors a place to practice. <br /><br />It took them nine years, but by 1922, the Mrs. Cohn, Miller, Spiegel and Adler had raised $12,000, enough to buy a building at 100 Yorkville.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "center": {
+      "latitude": 43.661791827888266,
+      "longitude": -79.37473164256765
+    },
+    "caches": [
+      {
+        "latitude": 43.661791827888266,
+        "longitude": -79.37473164256765,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "name": "Dorothy Dworkin",
     "headshot": "/photos/dora_dworkin.jpg",
-    "description": "Former Chairman of Mount Sinai",
-    "long_description": "Pictured: Monty Simmonds and wife, Judy <br /><br />As chairman of the Mount Sinai Hospital, in the late 70's Monty oversaw the construction of the new building on University Avenue and had the honour of welcoming Queen Elizabeth and Prince Philip to its opening in 1974.<br /><br />Thank you to Judy Simmonds for permitting the usage of her farm for the commemoration of her husband. <br /> <br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
-    "disclaimer": "1. <strike>These geocaches are on private property, please contact sara.brown@sinaihealth.ca to book a time.</strike> <br />2. <strong>These geocaches are no longer available to the public.</strong>",
+    "description": "One of the original founders of Mount Sinai",
+    "long_description": "Dorothy Dworkin was born to Wolf and Sara Goldstick in Windau, in the Courland Governorate of the Russian Empire (present-day Latvia). She had six sisters and four brothers. In 1904, she immigrated with her family to Canada. <br /><br />In 1907, she chose to become a maternity nurse. She spent a year working under Dr. Kaufman and various of his colleagues until Dr. Kaufman suggested that she go to train at Mount Sinai Hospital, Cleveland, where she would train as a midwife. Prior to leaving Toronto, she helped establish a free Jewish Dispensary located at Elizabeth Street near Agnes, which is now Dundas Street, with Ida Siegel and her brother Abe Lewis. She was the dispensary's first nurse. In 1909, she received a diploma from the Medical State Board of Ohio.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "center": {
+      "latitude": 43.746448,
+      "longitude": -79.193727
+    },
+    "caches": [
+      {
+        "latitude": 43.746448,
+        "longitude": -79.193727,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "name": "James William Bridgland",
+    "headshot": "/photos/100_yorkville.jpg",
+    "description": "The builder and owner of 100 Yorkville Avenue.",
+    "long_description": "In 1922, a location at 100 Yorkville Avenue was purchased with $12,000. The two-storey building was built as a private residence in 1871 by James D. Bridgland, the Crown's Inspector of Roads; in 1914, the home was converted into the Lyndhurst Private Hospital",
+    "center": {
+      "latitude": 43.67229367652458,
+      "longitude": -79.39159816930949
+    },
+    "caches": [
+      {
+        "latitude": 43.67229367652458,
+        "longitude": -79.39159816930949,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "name": "The Ezra Noshem Society",
+    "headshot": "/photos/ezra_noshem_society.jpg",
+    "description": "A Society of Women Behind Funding",
+    "long_description": "The Ezras Noshem Society (or Ezras Noshim Society) was a women's mutual benefit society established in Toronto in 1913 by R. Miller, a Mrs. Adler, and a Mrs. Zigerman. It began as an aid organization through which dues-paying members received visits and help with household chores during times of illness. The growing need for a place to care for elderly Jews prompted the society to open the Jewish Old Folks' Home in a house at 31 Cecil Street in 1917. Slova Greenberg initiated this effort and was still leading the Ezras Noshem Society when it played an instrumental role in raising funds for and founding Mount Sinai Hospital on Yorkville Avenue, around 1922.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
     "center": {
       "latitude": 44.25045785706793,
       "longitude": -80.1085702115981
@@ -37,20 +135,71 @@
     ]
   },
   {
-    "name": "Dorothy Dworkin",
-    "headshot": "/photos/dora_dworkin.jpg",
-    "description": "One of the original founders of Mount Sinai",
-    "long_description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:",
+    "name": "Heather Reisman",
+    "headshot": "/photos/Heather-Reisman.jpg",
+    "description": "First Chair in Perinatal Nursing Research",
+    "long_description": "In 1979, Heather Reisman co-founded Paradigm Consulting and served as the managing director of this strategic change consultancy until 1995. In 1995, Reisman founded a company called Indigo Books and Music. She raised $25m from a group of investors based on the original concept document for Indigo. In 2001, Indigo Books and Music acquired its main rival, Chapters, to form the largest book retailer in Canada, obtaining a clear leadership position in the book retailing industry. Reisman co-founded Kobo Inc. in 2009 and two years later, sold Indigo’s majority stake in Kobo to the Japanese company Rakuten for $315 million.<br /><br />Mount Sinai Hospital announced in December 2013 that a transformational $15 million gift from Reisman and Schwartz would be used to 'reshape emergency medicine' at the facility. In 1996, as a result of a partnership with the University of Toronto, Mount Sinai establishes the Heather M. Reisman Chair in Perinatal Nursing Research, Canada’s first endowed chair for nursing research.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "center": {
+      "latitude": 43.823907,
+      "longitude": -79.088690
+    },
+    "caches": [
+      {
+        "latitude": 43.823907,
+        "longitude": -79.088690,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      },
+      {
+        "latitude": 30,
+        "longitude": 30,
+        "secret": 4567233,
+        "story": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "name": "Monty Maurice Simmonds",
+    "headshot": "/photos/judy-and-monty-simmonds.jpg",
+    "description": "Former Chairman of Mount Sinai",
+    "long_description": "Pictured: Monty Simmonds and wife, Judy <br /><br />As chairman of the Mount Sinai Hospital, in the late 70's Monty oversaw the construction of the new building on University Avenue and had the honour of welcoming Queen Elizabeth and Prince Philip to its opening in 1974. It was Mr. Simmonds direct and (at times controversial) method of doing business that accelerated the construction of the new building.<br /><br />Thank you to Judy Simmonds for permitting the usage of her farm for the commemoration of her husband. <br /> <br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "disclaimer": "1. <strike>These geocaches are on private property, please contact sara.brown@sinaihealth.ca to book a time.</strike> <br />2. <strong>These geocaches are no longer available to the public.</strong>",
     "center": {
       "latitude": 44.25045785706793,
       "longitude": -80.1085702115981
     },
     "caches": [
       {
-        "latitude": 30,
-        "longitude": 30,
+        "latitude": 44.25045785706793,
+        "longitude": -80.1085702115981,
         "secret": 5,
-        "story": "Dorothy Dworkin was born to Wolf and Sara Goldstick in Windau, in the Courland Governorate of the Russian Empire (present-day Latvia).[1] She had six sisters and four brothers. In 1904, she immigrated with her family to Canada. In 1907, she chose to become a maternity nurse. She spent a year working under Dr. Kaufman and various of his colleagues until Dr. Kaufman suggested that she go to train at Mount Sinai Hospital, Cleveland, where she would train as a midwife.[2] Prior to leaving Toronto, she helped establish a free Jewish Dispensary located at Elizabeth Street near Agnes, which is now Dundas Street, with Ida Siegel and her brother Abe Lewis.[3] She was the dispensary's first nurse.[4] In 1909, she received a diploma from the Medical State Board of Ohio.",
+        "headline": "Headline #1",
+        "story": "Test Story #1",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
+      },
+      {
+        "latitude": 44.25045785706793,
+        "longitude": -80.1055702115981,
+        "secret": 5,
+        "headline": "Headline #2",
+        "story": "Test Story #2",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
+      },
+      {
+        "latitude": 44.25045785706793,
+        "longitude": -80.1105702115981,
+        "secret": 5,
+        "headline": "Headline #3",
+        "story": "Test Story #3",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
       }
     ]

@@ -20,6 +20,11 @@ const useStyles = makeStyles((theme: Theme) =>
         height: "300px",
       },
     },
+    header: {
+      [theme.breakpoints.down("xs")]: {
+        minHeight: "50",
+      },
+    },
     description: {
       [theme.breakpoints.down("xs")]: {
         minHeight: 100,
@@ -50,7 +55,12 @@ const ContentCard: React.FC<IProps> = (props) => {
           title={props.heading}
         />
         <CardContent className={classes.description}>
-          <Typography gutterBottom variant="h3" component="h2">
+          <Typography
+            gutterBottom
+            variant="h3"
+            component="h2"
+            className={classes.header}
+          >
             {props.heading}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">

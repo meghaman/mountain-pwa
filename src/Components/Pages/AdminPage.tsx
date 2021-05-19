@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       flexGrow: 1,
       padding: theme.spacing(1),
+      maxWidth: 1000,
     },
   })
 );
