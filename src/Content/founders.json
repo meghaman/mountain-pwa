@@ -141,12 +141,12 @@
     "long_description": "In 1979, Heather Reisman co-founded Paradigm Consulting and served as the managing director of this strategic change consultancy until 1995. In 1995, Reisman founded a company called Indigo Books and Music. She raised $25m from a group of investors based on the original concept document for Indigo. In 2001, Indigo Books and Music acquired its main rival, Chapters, to form the largest book retailer in Canada, obtaining a clear leadership position in the book retailing industry. Reisman co-founded Kobo Inc. in 2009 and two years later, sold Indigo's majority stake in Kobo to the Japanese company Rakuten for $315 million.<br /><br />Mount Sinai Hospital announced in December 2013 that a transformational $15 million gift from Reisman and Schwartz would be used to 'reshape emergency medicine' at the facility. In 1996, as a result of a partnership with the University of Toronto, Mount Sinai establishes the Heather M. Reisman Chair in Perinatal Nursing Research, Canada's first endowed chair for nursing research.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
     "center": {
       "latitude": 43.823907,
-      "longitude": -79.088690
+      "longitude": -79.08869
     },
     "caches": [
       {
         "latitude": 43.823907,
-        "longitude": -79.088690,
+        "longitude": -79.08869,
         "secret": 4567233,
         "story": "",
         "photo": ""
@@ -221,16 +221,16 @@
         "photo": "/photos/landscape_test.jpg"
       },
       {
-        "latitude": 44.25045785706793,
-        "longitude": -80.1055702115981,
+        "latitude": 44.2474197,
+        "longitude": -80.1124501,
         "secret": 3,
         "headline": "Headline #2",
         "story": "Test Story #2",
         "photo": "/photos/landscape_test.jpg"
       },
       {
-        "latitude": 44.25045785706793,
-        "longitude": -80.1105702115981,
+        "latitude": 44.2474,
+        "longitude": -80.1166,
         "secret": 20,
         "headline": "Headline #3",
         "story": "Test Story #3",
