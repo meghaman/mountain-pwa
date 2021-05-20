@@ -1,9 +1,9 @@
 {
-  "short_name": "mountain_pwa",
-  "name": "Mountain PWA",
+  "short_name": "Mount Sinai Diamond Jubilee",
+  "name": "Mount Sinai Diamond Jubilee",
   "icons": [
     {
-      "src": "mountain.png",
+      "src": "diamond.png",
       "sizes": "512x512",
       "type": "image/png"
     }

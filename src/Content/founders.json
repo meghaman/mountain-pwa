@@ -3,7 +3,7 @@
     "name": "The Original Four",
     "headshot": "/photos/original_members.jpg",
     "description": "The four women who founded Mount Sinai",
-    "long_description": "In August of 1913, four immigrant women from Toronto’s Jewish community started knocking on neighbourhood doors to raise money for a hospital.<br /><br />The Jewish immigrant population in Toronto was burgeoning; most of the new immigrants didn’t speak English and were afraid of large institutions.  And, sadly, not a hospital in the city would give Jewish doctors a place to practice. <br /><br />It took them nine years, but by 1922, the Mrs. Cohn, Miller, Spiegel and Adler had raised $12,000, enough to buy a building at 100 Yorkville.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "long_description": "In August of 1913, four immigrant women from Toronto's Jewish community started knocking on neighbourhood doors to raise money for a hospital.<br /><br />The Jewish immigrant population in Toronto was burgeoning; most of the new immigrants didn't speak English and were afraid of large institutions.  And, sadly, not a hospital in the city would give Jewish doctors a place to practice. <br /><br />It took them nine years, but by 1922, the Mrs. Cohn, Miller, Spiegel and Adler had raised $12,000, enough to buy a building at 100 Yorkville.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
     "center": {
       "latitude": 43.661791827888266,
       "longitude": -79.37473164256765
@@ -114,7 +114,7 @@
         "secret": 5,
         "headline": "Headline #1",
         "story": "Test Story #1",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
+        "photo": "/photos/landscape_test.jpg"
       },
       {
         "latitude": 44.25045785706793,
@@ -122,7 +122,7 @@
         "secret": 5,
         "headline": "Headline #2",
         "story": "Test Story #2",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
+        "photo": "/photos/landscape_test.jpg"
       },
       {
         "latitude": 44.25045785706793,
@@ -130,7 +130,7 @@
         "secret": 5,
         "headline": "Headline #3",
         "story": "Test Story #3",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
+        "photo": "/photos/landscape_test.jpg"
       }
     ]
   },
@@ -138,7 +138,7 @@
     "name": "Heather Reisman",
     "headshot": "/photos/Heather-Reisman.jpg",
     "description": "First Chair in Perinatal Nursing Research",
-    "long_description": "In 1979, Heather Reisman co-founded Paradigm Consulting and served as the managing director of this strategic change consultancy until 1995. In 1995, Reisman founded a company called Indigo Books and Music. She raised $25m from a group of investors based on the original concept document for Indigo. In 2001, Indigo Books and Music acquired its main rival, Chapters, to form the largest book retailer in Canada, obtaining a clear leadership position in the book retailing industry. Reisman co-founded Kobo Inc. in 2009 and two years later, sold Indigo’s majority stake in Kobo to the Japanese company Rakuten for $315 million.<br /><br />Mount Sinai Hospital announced in December 2013 that a transformational $15 million gift from Reisman and Schwartz would be used to 'reshape emergency medicine' at the facility. In 1996, as a result of a partnership with the University of Toronto, Mount Sinai establishes the Heather M. Reisman Chair in Perinatal Nursing Research, Canada’s first endowed chair for nursing research.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "long_description": "In 1979, Heather Reisman co-founded Paradigm Consulting and served as the managing director of this strategic change consultancy until 1995. In 1995, Reisman founded a company called Indigo Books and Music. She raised $25m from a group of investors based on the original concept document for Indigo. In 2001, Indigo Books and Music acquired its main rival, Chapters, to form the largest book retailer in Canada, obtaining a clear leadership position in the book retailing industry. Reisman co-founded Kobo Inc. in 2009 and two years later, sold Indigo's majority stake in Kobo to the Japanese company Rakuten for $315 million.<br /><br />Mount Sinai Hospital announced in December 2013 that a transformational $15 million gift from Reisman and Schwartz would be used to 'reshape emergency medicine' at the facility. In 1996, as a result of a partnership with the University of Toronto, Mount Sinai establishes the Heather M. Reisman Chair in Perinatal Nursing Research, Canada's first endowed chair for nursing research.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
     "center": {
       "latitude": 43.823907,
       "longitude": -79.088690
@@ -171,7 +171,7 @@
     "name": "Dr. Allan Gross",
     "headshot": "/photos/allan_gross.jpg",
     "description": "Orthopaedic surgeon at Mount Sinai Hospital",
-    "long_description": "An orthopaedic surgeon specializing in lower extremity reconstruction, with a particular interest in revision arthroplasty of the hip and knee. Has published extensively on the use of allograft bone in revision arthoplasty of the hip and knee. Has the largest series in the world of fresh osteochondral allografts performed for post traumatic defects of the knee. Supervises a large institutional tissue bank and comprehensive orthopaedic transplant programme.<br /><br />Dr. Allan Gross and his team perform Canada’s first fresh tissue hip transplant. Five years later, his team performs Canada’s first knee joint transplant.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "long_description": "An orthopaedic surgeon specializing in lower extremity reconstruction, with a particular interest in revision arthroplasty of the hip and knee. Has published extensively on the use of allograft bone in revision arthoplasty of the hip and knee. Has the largest series in the world of fresh osteochondral allografts performed for post traumatic defects of the knee. Supervises a large institutional tissue bank and comprehensive orthopaedic transplant programme.<br /><br />Dr. Allan Gross and his team perform Canada's first fresh tissue hip transplant. Five years later, his team performs Canada's first knee joint transplant.<br /><br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
     "disclaimer": "1. <strike>These geocaches are on private property, please contact sara.brown@sinaihealth.ca to book a time.</strike> <br />2. <strong>These geocaches are no longer available to the public.</strong>",
     "center": {
       "latitude": 43.91996410488281,
@@ -218,7 +218,7 @@
         "secret": 5,
         "headline": "Headline #1",
         "story": "Test Story #1",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
+        "photo": "/photos/landscape_test.jpg"
       },
       {
         "latitude": 44.25045785706793,
@@ -226,7 +226,7 @@
         "secret": 5,
         "headline": "Headline #2",
         "story": "Test Story #2",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
+        "photo": "/photos/landscape_test.jpg"
       },
       {
         "latitude": 44.25045785706793,
@@ -234,7 +234,7 @@
         "secret": 5,
         "headline": "Headline #3",
         "story": "Test Story #3",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png"
+        "photo": "/photos/landscape_test.jpg"
       }
     ]
   },
@@ -275,7 +275,7 @@
     "name": "Allan Rudolph",
     "headshot": "/photos/allan_rudolph.jpg",
     "description": "Current Board Chair of the Circle of Care",
-    "long_description": "Allan Rudolph is the Chief Board of Directors of the Circle of Care within the Sinai Health Systems. He is also a Managing Partner at BDO and is a member of the Toronto Region Management Board. Allan’s area of specialization includes manufacturing and retail. He also has extensive experience in multi-location audits, working with high profile clients. Allan is an active member of various firm committees and has also been involved in a number of charitable organizations including Circle of Care. Allan sits on the Sinai Health board as an ex-officio member.<br /><br />Allan oversaw more than 16,000 clients and caregivers leaned on Circle of Care for supports and services that allow them to live independently at home.<br /> <br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
+    "long_description": "Allan Rudolph is the Chief Board of Directors of the Circle of Care within the Sinai Health Systems. He is also a Managing Partner at BDO and is a member of the Toronto Region Management Board. Allan's area of specialization includes manufacturing and retail. He also has extensive experience in multi-location audits, working with high profile clients. Allan is an active member of various firm committees and has also been involved in a number of charitable organizations including Circle of Care. Allan sits on the Sinai Health board as an ex-officio member.<br /><br />Allan oversaw more than 16,000 clients and caregivers leaned on Circle of Care for supports and services that allow them to live independently at home.<br /> <br /><u>Instructions:</u> There are 3 caches, each cache contains a number. Enter that number below and it will reveal the location of the next cache. <strong>Finding all 3 will unlock a special prize!</strong>",
     "center": {
       "latitude": 44.22148042145435,
       "longitude": -78.81088634297876
