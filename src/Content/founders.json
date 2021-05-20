@@ -215,7 +215,7 @@
       {
         "latitude": 44.25045785706793,
         "longitude": -80.1085702115981,
-        "secret": 5,
+        "secret": 12,
         "headline": "Headline #1",
         "story": "Test Story #1",
         "photo": "/photos/landscape_test.jpg"
@@ -223,7 +223,7 @@
       {
         "latitude": 44.25045785706793,
         "longitude": -80.1055702115981,
-        "secret": 5,
+        "secret": 3,
         "headline": "Headline #2",
         "story": "Test Story #2",
         "photo": "/photos/landscape_test.jpg"
@@ -231,7 +231,7 @@
       {
         "latitude": 44.25045785706793,
         "longitude": -80.1105702115981,
-        "secret": 5,
+        "secret": 20,
         "headline": "Headline #3",
         "story": "Test Story #3",
         "photo": "/photos/landscape_test.jpg"
