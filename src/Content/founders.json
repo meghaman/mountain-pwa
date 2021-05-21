@@ -213,8 +213,8 @@
     },
     "caches": [
       {
-        "latitude": 44.25045785706793,
-        "longitude": -80.1085702115981,
+        "latitude": 44.2469636,
+        "longitude": -80.1088142,
         "secret": 12,
         "headline": "Headline #1",
         "story": "Test Story #1",
