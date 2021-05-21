@@ -115,6 +115,11 @@ const FounderPage: React.FC = () => {
                     correctAnswer={cache.secret}
                     onCorrectAnswer={handleCorrectAnswer}
                   ></AnswerTextBox>
+                  {cache.hint && (
+                    <Typography variant="subtitle2">
+                      Hint: {cache.hint}
+                    </Typography>
+                  )}
                 </Paper>
               </Grid>
             );

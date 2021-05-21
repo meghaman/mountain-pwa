@@ -216,25 +216,28 @@
         "latitude": 44.2469636,
         "longitude": -80.1088142,
         "secret": 12,
-        "headline": "Headline #1",
-        "story": "Test Story #1",
-        "photo": "/photos/landscape_test.jpg"
+        "headline": "Monty's Bench",
+        "story": "Monty's bench was commemorated in the summer of 2014 by his daughter Joy. The plaque headline, \"Monty Simmonds - A Man of All Seasons\", was in reference to Monty's multi-functional nature and his thirst for life. He was an avid golfer, a man of the sea, a smart business man, a self-taught carpenter and so much more.<br /><br /> He would often sit by Lake Monty reading and as his daughter Cathy said, \"he was an exciting man who loved to read long and boring books.\"",
+        "photo": "/photos/monty_bench.jpg",
+        "hint": "Sit down"
       },
       {
         "latitude": 44.2474197,
         "longitude": -80.1124501,
         "secret": 3,
-        "headline": "Headline #2",
-        "story": "Test Story #2",
-        "photo": "/photos/landscape_test.jpg"
+        "headline": "The Gazebo",
+        "story": "The gazebo was originally used as a greenhouse on the Simmonds' vegetable farm. Throughout the summer and spring the garden was teeming with produce of all sorts: Raspberries, strawberries, broccoli, beans and, at Monty's insistence, it had to be \"full of flowers\". In the winter, the gazebo would be moved closer to the house to act as a greenhouse for the plantlings and seeds.",
+        "photo": "/photos/gazebo.jpg",
+        "hint": "Corners"
       },
       {
         "latitude": 44.2474,
         "longitude": -80.1166,
         "secret": 20,
-        "headline": "Headline #3",
-        "story": "Test Story #3",
-        "photo": "/photos/landscape_test.jpg"
+        "headline": "The Book of Love...",
+        "story": "It was on this spot, on May 22nd 2021, that Murali Kulachandran asked Jennifer Karen Perlmutter to marry him.",
+        "photo": "/photos/the_book_of_love.jpg",
+        "hint": "Logs"
       }
     ]
   },
