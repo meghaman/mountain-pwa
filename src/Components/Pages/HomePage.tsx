@@ -70,13 +70,19 @@ const HomePage = () => {
               <Typography variant="h1">Mount Sinai Health</Typography>
               <div>
                 <Typography variant="h2">
-                  Diamond Jubilee Celebration
+                  Diamond Jubilee Geocaching Celebration
                 </Typography>
               </div>
               <div>
                 <Typography variant="body1">
                   Celebrate Our Diamond Jubilee by learning more about Our
                   Founders
+                </Typography>
+              </div>
+              <div>
+                <Typography variant="subtitle2">
+                  Find geocaches honouring our founders throughout Toronto,
+                  Creemore, Belleville and Barrie!
                 </Typography>
               </div>
             </Grid>
