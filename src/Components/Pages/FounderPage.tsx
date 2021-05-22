@@ -115,7 +115,7 @@ const FounderPage: React.FC = () => {
                     correctAnswer={cache.secret}
                     onCorrectAnswer={handleCorrectAnswer}
                   ></AnswerTextBox>
-                  {cache.hint && (
+                  {cache.hint && i === currentAnswer + 1 && (
                     <Typography variant="subtitle2">
                       Hint: {cache.hint}
                     </Typography>
