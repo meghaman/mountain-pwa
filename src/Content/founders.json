@@ -223,7 +223,7 @@
         "longitude": -80.1088142,
         "secret": 12,
         "headline": "Monty's Bench",
-        "story": "Monty's bench was commemorated in the summer of 2014 by his daughter Joy. The plaque headline, \"Monty Simmonds - A Man of All Seasons\", was in reference to Monty's multi-functional nature and his thirst for life. He was an avid golfer, a man of the sea, a smart business man, a self-taught carpenter and so much more.<br /><br /> He would often sit by Lake Monty reading and as his daughter Cathy said, \"he was an exciting man who loved to read long and boring books.\"",
+        "story": "Monty's bench was commemorated in the summer of 2014 by his daughter Joy. The plaque headline, \"Monty Simmonds - A Man of All Seasons\", was in reference to Monty's multi-functional nature and his thirst for life. He was an avid golfer, a man of the sea, a smart business man, a self-taught carpenter and so much more.<br /><br /> He would often sit by Lake Monty reading and as his daughter Joy said, \"he was an exciting man who loved to read long and boring books.\"",
         "photo": "/photos/monty_bench.jpg",
         "hint": "Sit down"
       },
@@ -241,8 +241,8 @@
         "longitude": -80.1166,
         "secret": 20,
         "headline": "The Book of Love...",
-        "story": "It was on this spot, on May 22nd 2021, that Murali Kulachandran asked Jennifer Karen Perlmutter to marry him.",
-        "photo": "/photos/the_book_of_love.jpg",
+        "story": "On this spot Murali sang Jenny a love song.",
+        "photo": "/photos/murali_jenny.jpg",
         "hint": "Logs"
       }
     ]
