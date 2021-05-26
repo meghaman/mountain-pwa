@@ -1,5 +1,5 @@
 // Flag for enabling cache in production
-const doCache = false;
+const doCache = true;
 
 const CACHE_NAME = "pwa-app-cache";
 
@@ -31,7 +31,26 @@ self.addEventListener("install", function (event) {
           .then((assets) => {
             // We will cache initial page and the main.js
             // We could also cache assets like CSS and images
-            const urlsToCache = ["/", assets["main.js"]];
+            const urlsToCache = [
+              "/",
+              "/main.js",
+              "/founder/6",
+              "/photos/100_yorkville.jpg",
+              "/photos/allan_gross.jpg",
+              "/photos/allan_rudolph.jpg",
+              "/photos/chest_icon.png",
+              "/photos/dora_dworkin.jpg",
+              "/photos/ezra_noshem_society.jpg",
+              "/photos/gazebo.jpg",
+              "/photos/Heather-Reisman.jpg",
+              "/photos/judy-and-monty-simmonds.jpg",
+              "/photos/monty_bench.jpg",
+              "/photos/ms_logo.png",
+              "/photos/murali_jenny.jpg",
+              "/photos/original_members.jpg",
+              "/photos/sidney_liswood.jpg",
+              "/photos/the_book_of_love.jpg",
+            ];
             cache.addAll(urlsToCache);
           });
       })
