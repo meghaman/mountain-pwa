@@ -1,4 +1,3 @@
-// Flag for enabling cache in production
 const doCache = true;
 
 const CACHE_NAME = "pwa-app-cache";
@@ -29,8 +28,6 @@ self.addEventListener("install", function (event) {
             response.json();
           })
           .then((assets) => {
-            // We will cache initial page and the main.js
-            // We could also cache assets like CSS and images
             const urlsToCache = [
               "/",
               "/main.js",
